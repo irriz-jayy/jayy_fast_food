@@ -46,6 +46,11 @@ a {
   background-color: gold;
 }
 
+.menu {
+  font-size: 30px;
+  font-family: cursive;
+}
+
 span {
   display: flex;
   font-size: 20px;

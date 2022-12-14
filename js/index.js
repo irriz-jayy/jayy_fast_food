@@ -16,5 +16,12 @@ function renderMenu(data) {
     menuSpan.innerText = data.name;
 
     menu.appendChild(menuSpan);
+    //   });
+    // }
+
+    menuSpan.addEventListener("click", () => {
+      const description = document.getElementById("description");
+      description.textContent = data.description;
+    });
   });
 }
