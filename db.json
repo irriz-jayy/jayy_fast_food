@@ -1,0 +1,34 @@
+{
+  "snacks": [
+    {
+      "id": 1,
+      "name": "Hamburger",
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/mcdonalds-Hamburger-new:1-3-product-tile-desktop?wid=829&hei=515&dpr=off",
+      "available": 8
+    },
+    {
+      "id": 2,
+      "name": "Pizza",
+      "image": "https://foodhub.scene7.com/is/image/woolworthsltdprod/2004-easy-pepperoni-pizza:Mobile-1300x1150",
+      "available": 14
+    },
+    {
+      "id": 3,
+      "name": "Smoothie",
+      "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/11/19/0/FNK_Strawberry-Banana-Smoothie_H_s4x3.jpg.rend.hgtvcom.616.462.suffix/1605818669813.jpeg",
+      "available": 25
+    },
+    {
+      "id": 4,
+      "name": "Crisps",
+      "image": "https://assets.bonappetit.com/photos/6346eb04a5623aca83a635e3/16:9/w_2671,h_1502,c_limit/1012-easy-apps-chips-lede.jpg",
+      "available": 10
+    },
+    {
+      "id": 5,
+      "name": "Chips",
+      "image": "https://cdn.standardmedia.co.ke/images/monday/tsbkxorgrkdarwxg6617feed27883c.jpg",
+      "available": 7
+    }
+  ]
+}
