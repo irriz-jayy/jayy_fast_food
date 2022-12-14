@@ -22,6 +22,9 @@ function renderMenu(data) {
     menuSpan.addEventListener("click", () => {
       const description = document.getElementById("description");
       description.textContent = data.description;
+
+      const image = document.getElementById("card");
+      image.setAttribute("src", data.image);
     });
   });
 }
