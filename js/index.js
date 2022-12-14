@@ -3,7 +3,18 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function fetchData(data) {
-  fetch("https://api.jsonbin.io/v3/b/6399eed0dfc68e59d5681230")
+  fetch("http://localhost:3000/snacks")
     .then((response) => response.json())
-    .then((data) => console.log(data));
+    .then((data) => renderMenu(data));
+}
+
+function renderMenu(data) {
+  const menu = document.getElementById("menu");
+  console.log(data);
+  data.forEach((data) => {
+    const menuSpan = document.createElement("span");
+    menuSpan.innerText = data.name;
+
+    menu.appendChild(menuSpan);
+  });
 }
