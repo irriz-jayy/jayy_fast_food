@@ -27,7 +27,39 @@
       <div class="description" id="description">Description</div>
       <div class="food_item">
         <div class="food_card"><img id="card" /></div>
-        <button class="buy">Buy</button>
+        <!-- <button class="buy">Buy</button> -->
+        <div class="openBtn">
+          <button class="openButton" onclick="openForm()">
+            <strong>Order food</strong>
+          </button>
+        </div>
+        <div class="loginPopup">
+          <div class="formPopup" id="popupForm">
+            <form action="#" class="formContainer">
+              <h2>Order</h2>
+              <label for="email">
+                <strong>Available</strong>
+              </label>
+              <input type="text" id="email" />
+              <label for="psw">
+                <strong>Purchase</strong>
+              </label>
+              <input type="number" id="psw" name="psw" required />
+              <button type="submit" class="btn">Order</button>
+              <button type="button" class="btn cancel" onclick="closeForm()">
+                Close
+              </button>
+            </form>
+          </div>
+        </div>
+        <script>
+          function openForm() {
+            document.getElementById("popupForm").style.display = "block";
+          }
+          function closeForm() {
+            document.getElementById("popupForm").style.display = "none";
+          }
+        </script>
       </div>
     </div>
   </body>

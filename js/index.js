@@ -25,6 +25,11 @@ function renderMenu(data) {
 
       const image = document.getElementById("card");
       image.setAttribute("src", data.image);
+
+      let button = document.getElementsByClassName("btn");
+      button.addEventListener("click", () => {
+        alert("Thanks for the order!");
+      });
     });
   });
 }
