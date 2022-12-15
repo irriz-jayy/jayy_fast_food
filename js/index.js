@@ -27,9 +27,7 @@ function renderMenu(data) {
       image.setAttribute("src", data.image);
 
       let button = document.getElementsByClassName("btn");
-      button.addEventListener("click", () => {
-        alert("Thanks for the order!");
-      });
+      button.addEventListener("click", () => {});
     });
   });
 }
