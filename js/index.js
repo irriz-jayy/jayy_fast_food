@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   fetchData();
-}):
+});
 
 function fetchData(data) {
   fetch("http://localhost:3000/snacks")
