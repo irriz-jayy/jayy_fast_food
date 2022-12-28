@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: gold;
+  background-color: #ffcf23;
 }
 
 .navbar {
@@ -12,7 +12,7 @@
   align-items: center;
   /* border-color: aqua;
   border-style: solid; */
-  background-color: gold;
+  background-color: #ffcf23;
 }
 
 a {
@@ -48,11 +48,28 @@ a:hover {
 }
 
 .container {
-  height: 500px;
+  height: 100vh;
+  position: relative;
   display: flex;
   /* justify-content: space-evenly; */
 }
 
+.logo {
+  background-attachment: fixed;
+  background: url(/assets/logo.jpeg);
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+.location {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-blend-mode: multiply;
+  background: #00ffff url(/assets/location.png);
+  background-attachment: fixed;
+  background-size: cover;
+}
 .food_menu {
   width: 20%;
   background-color: gold;
