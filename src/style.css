@@ -83,8 +83,18 @@ a:hover {
   width: 80px;
   border-radius: 100px;
 }
+
+.food_card {
+  height: 100vh;
+  border-style: solid;
+  background-attachment: fixed;
+  background: #ffcf23 url(/assets/background3.jpg);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-attachment: fixed;
+}
 /*  */
-.food_menu {
+/* .food_menu {
   width: 20%;
   background-color: #ffcf23;
 }
@@ -99,7 +109,6 @@ span {
   font-size: 20px;
   font-family: garamond;
   margin: 10px;
-  /* border-style: solid; */
   border-radius: 20%;
   border-width: 1px;
 }
@@ -146,7 +155,6 @@ span:hover {
 #card {
   width: 100%;
   height: 100%;
-  /* border-radius: 10%; */
 }
 
 * {
@@ -210,4 +218,4 @@ span:hover {
 .formContainer .btn:hover,
 .openButton:hover {
   opacity: 1;
-}
+} */
