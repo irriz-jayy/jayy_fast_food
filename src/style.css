@@ -119,37 +119,71 @@ a:hover {
 
 .menu_name_card {
   width: 30%;
-  border-style: solid;
   height: 100%;
   font-size: 30px;
   display: flex;
-  align-items: center;
   flex-direction: column;
   /* float: left; */
 }
 
 .menu_detail_card {
-  border-color: red;
   height: 500px;
-  border-style: solid;
   display: flex;
   flex-direction: row;
 }
 
 .menu_image_card {
   display: flex;
-  /* float: right; */
-  border-color: blue;
-  border-style: solid;
   width: 70%;
   height: 100%;
 }
 
-.be {
-  margin: 10px;
+.food_item {
+  margin: 20px;
   width: 45%;
   border-style: solid;
   border-color: white;
+  border-radius: 20px;
+}
+
+.menu_image {
+  height: 70%;
+  border-color: aqua;
+  border-style: solid;
+  width: 90%;
+  margin: 15px 15px 0 15px;
+}
+
+.name,
+.price {
+  height: 10%;
+  width: 90%;
+  margin: 0 15px 0 15px;
+  border-color: black;
+  border-style: solid;
+}
+
+/* Info box style */
+.info_box {
+  height: 300px;
+  background-color: #83b049;
+  display: flex;
+  flex-direction: row;
+}
+.info1 {
+  width: 25%;
+  border-color: black;
+  border-style: solid;
+}
+
+/* footer styling */
+.footer {
+  height: 30px;
+  background-color: #190d01;
+  color: #ffcf23;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 /*  */
 /* .food_menu {
