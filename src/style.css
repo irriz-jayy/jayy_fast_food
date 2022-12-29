@@ -55,6 +55,11 @@ a:hover {
   display: flex;
   /* justify-content: space-evenly; */
 }
+.log {
+  border-color: #190d01;
+  border-style: solid;
+  border-radius: 10px;
+}
 
 .logo {
   background-attachment: fixed;
@@ -109,6 +114,42 @@ a:hover {
   font-size: 40px;
   font-weight: 900;
   font-family: Arial, Helvetica, sans-serif;
+  color: #190d01;
+}
+
+.menu_name_card {
+  width: 30%;
+  border-style: solid;
+  height: 100%;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* float: left; */
+}
+
+.menu_detail_card {
+  border-color: red;
+  height: 500px;
+  border-style: solid;
+  display: flex;
+  flex-direction: row;
+}
+
+.menu_image_card {
+  display: flex;
+  /* float: right; */
+  border-color: blue;
+  border-style: solid;
+  width: 70%;
+  height: 100%;
+}
+
+.be {
+  margin: 10px;
+  width: 45%;
+  border-style: solid;
+  border-color: white;
 }
 /*  */
 /* .food_menu {
