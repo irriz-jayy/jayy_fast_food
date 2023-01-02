@@ -46,7 +46,14 @@
         <p class="intro2">Our Menu</p>
       </div>
       <div class="menu_detail_card">
-        <div class="menu_name_card">Categories</div>
+        <div class="menu_name_card">
+          <p class="intro">Categories</p>
+          <button class="food_name">Tacos</button>
+          <button class="food_name">Pizzas</button>
+          <button class="food_name">Chips</button>
+          <button class="food_name">Drinks</button>
+          <button class="food_name">Sodas</button>
+        </div>
         <div class="menu_image_card">
           <div class="food_item">
             <img class="menu_image" src="/assets/" />
@@ -60,8 +67,29 @@
           </div>
         </div>
       </div>
+      <div class="order">
+        <button class="order_button" onclick="openForm()">Order</button>
+      </div>
+      <div class="loginPopup">
+        <div class="formPopup" id="popupForm">
+          <form action="#" class="formContainer">
+            <h2>Order</h2>
+            <label for="email">
+              <strong>Available</strong>
+            </label>
+            <input type="text" id="email" />
+            <label for="psw">
+              <strong>Purchase</strong>
+            </label>
+            <input type="number" id="psw" name="psw" required />
+            <button type="submit" class="btn">Order</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">
+              Close
+            </button>
+          </form>
+        </div>
+      </div>
     </div>
-    <div class="order"></div>
     <div class="info_box">
       <div class="info1"></div>
       <div class="info1"></div>

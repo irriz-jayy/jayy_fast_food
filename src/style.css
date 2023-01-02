@@ -91,10 +91,10 @@ a:hover {
 }
 
 .food_card {
-  height: 100vh;
+  /* height: 100vh; */
   border-style: solid;
-  background-attachment: fixed;
   background: #ffcf23 url(/assets/background3.jpg);
+  background-attachment: fixed;
   background-blend-mode: multiply;
   background-size: cover;
   background-attachment: fixed;
@@ -102,7 +102,7 @@ a:hover {
 
 .menu_card {
   margin-top: 30px;
-  height: 100px;
+  height: 50px;
   /* border-style: dotted; */
   background: transparent;
   display: flex;
@@ -117,21 +117,30 @@ a:hover {
   color: #190d01;
 }
 
+.menu_detail_card {
+  display: flex;
+  flex-direction: row;
+}
+
 .menu_name_card {
   width: 30%;
   height: 100%;
   font-size: 30px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   /* float: left; */
 }
-
-.menu_detail_card {
-  height: 500px;
-  display: flex;
-  flex-direction: row;
+.food_name {
+  width: 200px;
+  margin: 5px;
+  background: #190d01;
+  color: #ffcf23;
+  border-radius: 20px;
 }
-
+.food_name:hover {
+  cursor: pointer;
+}
 .menu_image_card {
   display: flex;
   width: 70%;
@@ -140,6 +149,7 @@ a:hover {
 
 .food_item {
   margin: 20px;
+  height: 500px;
   width: 45%;
   border-style: solid;
   border-color: white;
@@ -163,6 +173,26 @@ a:hover {
   border-style: solid;
 }
 
+/* Ordering interface */
+.order {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* background: #83b049; */
+}
+
+.order_button {
+  width: 150px;
+  height: 100%;
+  color: #190d01;
+  background: #83b049;
+  border-radius: 5px;
+}
+.order_button:hover {
+  cursor: pointer;
+}
+
 /* Info box style */
 .info_box {
   height: 300px;
@@ -184,16 +214,6 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-/* Ordering interface */
-.order {
-  height: 50vh;
-  border-style: solid;
-  background-attachment: fixed;
-  background: #190d01 url(/assets/background3.jpg);
-  background-blend-mode: multiply;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 /* .food_menu {

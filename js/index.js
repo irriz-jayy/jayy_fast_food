@@ -4,6 +4,13 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((data) => console.log(data));
 });
 
+function openForm() {
+  document.getElementById("popupForm").style.display = "block";
+}
+function closeForm() {
+  document.getElementById("popupForm").style.display = "none";
+}
+
 // function renderMenu(data) {
 //   const menu = document.getElementById("menu");
 //   console.log(data);
