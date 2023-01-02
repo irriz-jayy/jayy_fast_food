@@ -185,7 +185,17 @@ a:hover {
   flex-direction: column;
   align-items: center;
 }
-/*  */
+/* Ordering interface */
+.order {
+  height: 50vh;
+  border-style: solid;
+  background-attachment: fixed;
+  background: #190d01 url(/assets/background3.jpg);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 /* .food_menu {
   width: 20%;
   background-color: #ffcf23;
