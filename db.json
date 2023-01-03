@@ -17,8 +17,9 @@
       "name": "Cheese taco",
       "image": "https://popmenucloud.com/ghcutnqp/d3a346a8-2241-446b-8248-49502adadc3a.jpg",
       "price": 120
-    },
-
+    }
+  ],
+  "Pizzas": [
     {
       "id": 4,
       "name": "Pepperoni",
@@ -36,8 +37,10 @@
       "name": "Chicken",
       "image": "https://daganghalal.blob.core.windows.net/25290/Product/1000x1000__chickenpepperoni2d591f-1596614696728.jpg",
       "price": 800
-    },
+    }
+  ],
 
+  "Chips": [
     {
       "id": 7,
       "name": "Plain chips",
@@ -55,7 +58,9 @@
       "name": "Cheese fries",
       "image": "https://www.acouplecooks.com/wp-content/uploads/2022/06/Cheese-Fries-005.jpg",
       "price": 250
-    },
+    }
+  ],
+  "Smoothies": [
     {
       "id": 10,
       "name": "Strawberry smoothie",
@@ -73,7 +78,9 @@
       "name": "Banana smoothie",
       "image": "https://kristineskitchenblog.com/wp-content/uploads/2019/07/banana-smoothie-700-519.jpg",
       "price": 200
-    },
+    }
+  ],
+  "Sodas": [
     {
       "id": 13,
       "name": "Sprite",

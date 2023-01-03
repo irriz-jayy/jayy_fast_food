@@ -193,6 +193,65 @@ a:hover {
   cursor: pointer;
 }
 
+/* footer styling */
+.footer {
+  height: 30px;
+  background-color: #190d01;
+  color: #ffcf23;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loginPopup {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.formPopup {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%, 5%);
+  border: 3px solid #999999;
+  z-index: 9;
+}
+.formContainer {
+  max-width: 400px;
+  padding: 20px;
+  /* background-color: #fff; */
+  background: #ffcf23 url(/assets/background2.png);
+  background-blend-mode: multiply;
+}
+.formContainer input[type="text"],
+.formContainer input[type="number"] {
+  width: 100px;
+  padding: 15px;
+  margin: 5px 0 20px 0;
+  border: none;
+  background: #eee;
+}
+.formContainer input[type="text"]:focus,
+.formContainer input[type="password"]:focus {
+  outline: none;
+}
+.formContainer .btn {
+  padding: 12px 20px;
+  border: none;
+  background-color: #8ebf42;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 15px;
+  opacity: 0.8;
+}
+.formContainer .cancel {
+  background-color: #cc0000;
+}
+.formContainer .btn:hover,
+.openButton:hover {
+  opacity: 1;
+}
 /* Info box style */
 .info_box {
   height: 300px;
@@ -206,14 +265,8 @@ a:hover {
   border-style: solid;
 }
 
-/* footer styling */
-.footer {
-  height: 30px;
-  background-color: #190d01;
-  color: #ffcf23;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+ul {
+  list-style: none;
 }
 
 /* .food_menu {
