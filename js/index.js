@@ -4,6 +4,27 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((data) => console.log(data));
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+  fetch("http://localhost:3000/Pizzas")
+    .then((response) => response.json())
+    .then((data) => console.log(data));
+});
+document.addEventListener("DOMContentLoaded", () => {
+  fetch("http://localhost:3000/Chips")
+    .then((response) => response.json())
+    .then((data) => console.log(data));
+});
+document.addEventListener("DOMContentLoaded", () => {
+  fetch("http://localhost:3000/Smoothies")
+    .then((response) => response.json())
+    .then((data) => console.log(data));
+});
+document.addEventListener("DOMContentLoaded", () => {
+  fetch("http://localhost:3000/Sodas")
+    .then((response) => response.json())
+    .then((data) => console.log(data));
+});
+
 function openForm() {
   document.getElementById("popupForm").style.display = "block";
 }
