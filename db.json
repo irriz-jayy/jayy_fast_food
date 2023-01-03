@@ -11,12 +11,6 @@
       "name": "Chicken taco",
       "image": "http://www.myfoodom.com/wp-content/uploads/2020/05/Shredded-Chicken-Tacos-Image-2.jpg",
       "price": 100
-    },
-    {
-      "id": 3,
-      "name": "Cheese taco",
-      "image": "https://popmenucloud.com/ghcutnqp/d3a346a8-2241-446b-8248-49502adadc3a.jpg",
-      "price": 120
     }
   ],
   "Pizzas": [
@@ -31,12 +25,6 @@
       "name": "Spicy sausage",
       "image": "https://marketbasketfoods.com/wp-content/uploads/2013/08/spicy-sausage-pepperoni-pizza.jpg",
       "price": 600
-    },
-    {
-      "id": 6,
-      "name": "Chicken",
-      "image": "https://daganghalal.blob.core.windows.net/25290/Product/1000x1000__chickenpepperoni2d591f-1596614696728.jpg",
-      "price": 800
     }
   ],
 
@@ -52,12 +40,6 @@
       "name": "Chips masala",
       "image": "https://khinskitchen.com/wp-content/uploads/2021/09/masala-chips-7.jpg",
       "price": 300
-    },
-    {
-      "id": 9,
-      "name": "Cheese fries",
-      "image": "https://www.acouplecooks.com/wp-content/uploads/2022/06/Cheese-Fries-005.jpg",
-      "price": 250
     }
   ],
   "Smoothies": [
@@ -71,12 +53,6 @@
       "id": 11,
       "name": "Mango smoothie",
       "image": "https://www.acouplecooks.com/wp-content/uploads/2020/06/Mango-Smoothie-007.jpg",
-      "price": 200
-    },
-    {
-      "id": 12,
-      "name": "Banana smoothie",
-      "image": "https://kristineskitchenblog.com/wp-content/uploads/2019/07/banana-smoothie-700-519.jpg",
       "price": 200
     }
   ],
@@ -92,12 +68,6 @@
       "name": "Coca-cola",
       "image": "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/87/900721/1.jpg?6024",
       "price": 120
-    },
-    {
-      "id": 15,
-      "name": "Fanta",
-      "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h68/h97/17292088442910/24224_main.jpg_480Wx480H",
-      "price": 70
     }
   ]
 }
