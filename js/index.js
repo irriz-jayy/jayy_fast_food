@@ -11,17 +11,20 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((data) => renderPizza(data));
 
   function renderPizza(data) {
-    const foodbutton = document.getElementById("pizzas");
+    data.forEach((data) => {
+      console.log(data);
+      const foodbutton = document.getElementById("pizzas");
 
-    foodbutton.addEventListener("click", () => {
-      const name = document.getElementById("name");
-      name.innerText = data.name;
+      foodbutton.addEventListener("click", () => {
+        const name = document.getElementById("name");
+        name.innerText = data.name;
 
-      const price = document.getElementById("price");
-      price.innerText = data.price;
+        const price = document.getElementById("price");
+        price.innerText = data.price;
 
-      const image = document.getElementById("image");
-      image.setAttribute = data.image;
+        const image = document.getElementById("image");
+        image.setAttribute("src", data.image);
+      });
     });
   }
 });
