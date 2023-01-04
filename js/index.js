@@ -1,3 +1,4 @@
+// Fetch for each object
 document.addEventListener("DOMContentLoaded", () => {
   fetch("http://localhost:3000/Tacos")
     .then((response) => response.json())
@@ -7,7 +8,22 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   fetch("http://localhost:3000/Pizzas")
     .then((response) => response.json())
-    .then((data) => console.log(data));
+    .then((data) => renderPizza(data));
+
+  function renderPizza(data) {
+    const foodbutton = document.getElementById("pizzas");
+
+    foodbutton.addEventListener("click", () => {
+      const name = document.getElementById("name");
+      name.innerText = data.name;
+
+      const price = document.getElementById("price");
+      price.innerText = data.price;
+
+      const image = document.getElementById("image");
+      image.setAttribute = data.image;
+    });
+  }
 });
 document.addEventListener("DOMContentLoaded", () => {
   fetch("http://localhost:3000/Chips")
