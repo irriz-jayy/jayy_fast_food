@@ -2,7 +2,24 @@
 document.addEventListener("DOMContentLoaded", () => {
   fetch("http://localhost:3000/Tacos")
     .then((response) => response.json())
-    .then((data) => console.log(data));
+    .then((data) => renderTacos(data));
+
+  function renderTacos(data) {
+    data.forEach((data) => {
+      const foodbutton = document.getElementById("tacos");
+
+      foodbutton.addEventListener("click", () => {
+        const name = document.getElementById("name");
+        name.innerText = data.name;
+
+        const price = document.getElementById("price");
+        price.innerText = data.price;
+
+        const image = document.getElementById("image");
+        image.setAttribute("src", data.image);
+      });
+    });
+  }
 });
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -12,7 +29,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function renderPizza(data) {
     data.forEach((data) => {
-      console.log(data);
       const foodbutton = document.getElementById("pizzas");
 
       foodbutton.addEventListener("click", () => {
@@ -31,17 +47,68 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   fetch("http://localhost:3000/Chips")
     .then((response) => response.json())
-    .then((data) => console.log(data));
+    .then((data) => renderChips(data));
+
+  function renderChips(data) {
+    data.forEach((data) => {
+      const foodbutton = document.getElementById("chips");
+
+      foodbutton.addEventListener("click", () => {
+        const name = document.getElementById("name");
+        name.innerText = data.name;
+
+        const price = document.getElementById("price");
+        price.innerText = data.price;
+
+        const image = document.getElementById("image");
+        image.setAttribute("src", data.image);
+      });
+    });
+  }
 });
 document.addEventListener("DOMContentLoaded", () => {
   fetch("http://localhost:3000/Smoothies")
     .then((response) => response.json())
-    .then((data) => console.log(data));
+    .then((data) => renderSmoothies(data));
+
+  function renderSmoothies(data) {
+    data.forEach((data) => {
+      const foodbutton = document.getElementById("smoothies");
+
+      foodbutton.addEventListener("click", () => {
+        const name = document.getElementById("name");
+        name.innerText = data.name;
+
+        const price = document.getElementById("price");
+        price.innerText = data.price;
+
+        const image = document.getElementById("image");
+        image.setAttribute("src", data.image);
+      });
+    });
+  }
 });
 document.addEventListener("DOMContentLoaded", () => {
   fetch("http://localhost:3000/Sodas")
     .then((response) => response.json())
-    .then((data) => console.log(data));
+    .then((data) => renderSodas(data));
+
+  function renderSodas(data) {
+    data.forEach((data) => {
+      const foodbutton = document.getElementById("sodas");
+
+      foodbutton.addEventListener("click", () => {
+        const name = document.getElementById("name");
+        name.innerText = data.name;
+
+        const price = document.getElementById("price");
+        price.innerText = data.price;
+
+        const image = document.getElementById("image");
+        image.setAttribute("src", data.image);
+      });
+    });
+  }
 });
 
 function openForm() {
